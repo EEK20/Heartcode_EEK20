@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("images/background.png");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.colourpart {
+background-color:#E1FFF6;
+}
+
+.fa{
+    font-size: 4em; 
+
+}
+.vcenter {
+   height:50%;
+   margin:auto;
+   position: absolute;
+   top:0;left:0;bottom:0;right:0
+}
+/* .colourpart2{
+    background-color: : 
+} */
